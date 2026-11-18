@@ -1,0 +1,27 @@
+.container {
+  border: 10px solid red;
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+
+/* fixed positioning */
+.box {
+  width: 200px;
+  height: 65px;
+  background-color: green;
+  color: white;
+  /* position: fixed; */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.box-2 {
+  width: 200px;
+  height: 65px;
+  background-color: red;
+  color: white;
+  position: sticky;
+  top: 0px;
+}

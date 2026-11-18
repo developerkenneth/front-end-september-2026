@@ -1,0 +1,33 @@
+.box {
+  padding: 45px;
+  margin: 45px;
+}
+
+.one {
+  /* arrange gradients from left to right */
+
+  background-image: linear-gradient(to right, red, blue, green, black, orange);
+}
+
+.two {
+  /* arrange gradients from top to bottom */
+  width: 100px;
+  height: 500px;
+  background-image: linear-gradient(to bottom, red, blue, green);
+}
+
+.round {
+  margin: 45px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50px;
+  background-image: radial-gradient(red 20%, orange 30%, pink 50%);
+}
+
+.round-2 {
+  margin: 45px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50px;
+  background-image: conic-gradient(red, orange, pink);
+}

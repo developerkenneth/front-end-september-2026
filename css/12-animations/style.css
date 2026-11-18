@@ -1,0 +1,18 @@
+.test-box {
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  animation: disco-light 4s ease-in 3;
+}
+
+@keyframes disco-light {
+  from {
+    background-color: blue;
+  }
+
+  to {
+    background-color: red;
+  }
+}

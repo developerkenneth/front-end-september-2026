@@ -1,0 +1,44 @@
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid gray;
+}
+
+.one {
+  background-color: red;
+}
+.movable:hover {
+  /* transform: translateY(80px); */
+  /* move opposite direction */
+  transform: translateY(-80px);
+
+  background-color: aliceblue;
+}
+
+.rotate {
+  border-radius: 10px;
+  width: 75px;
+  height: 300px;
+  border: 1px solid gray;
+  background-image: radial-gradient(red, orange, pink);
+  margin: 20px;
+  /* transform: rotate(45deg); */
+}
+
+/* rotate effect */
+.rotate:hover {
+  transform: rotate(45deg);
+}
+
+.round {
+  background-image: radial-gradient(purple, pink, lime);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+  /* transform: scale(2); */
+}
+
+.round:hover {
+  transform: scale(5);
+}

@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 25% 25% 25% 25%;
+
+  grid-template-rows: 300px 300px 300px;
+
+  gap: 20px;
+}
+.grid-item {
+  padding: 45px;
+  border: 3px dashed red;
+}

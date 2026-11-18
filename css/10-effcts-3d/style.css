@@ -1,0 +1,18 @@
+.outer {
+  width: 175px;
+  height: 175px;
+  border: 1px solid red;
+}
+
+.inner {
+  width: 175px;
+  height: 175px;
+  border: 1px solid black;
+  background-color: green;
+  color: wheat;
+  transition: 5s;
+  /* transform: rotateX(45deg); */
+}
+.inner:hover {
+  transform: rotateX(180deg);
+}

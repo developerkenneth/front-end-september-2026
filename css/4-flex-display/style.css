@@ -1,0 +1,37 @@
+.container {
+  background-color: orange;
+  padding: 25px;
+
+  display: flex;
+  gap: 20px;
+  /* flex-direction: column;
+  justify-content: end;
+  align-items: end; */
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+
+  /* justify-content: left; */
+  /* justify-content: center; */
+  /* justify-content: right; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* gap: 35px; */
+  /* align-items: end; */
+  /* align-items: start; */
+  /* align-items: center; */
+  height: 500px;
+  width: 750px;
+}
+
+.box {
+  height: 100px;
+  width: 75px;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+}
+
+.long-box {
+  height: 200px;
+}

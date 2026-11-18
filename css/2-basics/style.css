@@ -1,0 +1,57 @@
+/**  namng convention for css
+        tall boy
+        tall-boy
+
+        Background color
+        background-color-big 
+*/
+
+/* selectors */
+
+/* element selector : selecting element by the name of the html element */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  /* what ever u do here will only affect the element u selected */
+  property-name: value;
+  another-property: fair;
+  background-color: red;
+}
+
+div {
+  background-color: wheat;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+/* id selector */
+#unique {
+  color: white;
+  background-color: orange;
+}
+
+/* class selector */
+.group-1 {
+  background-color: skyblue;
+  color: palevioletred;
+}
+
+.padding-2 {
+  padding: 45px;
+  font-size: 23px;
+}
+
+/* combinator selector */
+
+.group-1 p {
+  color: royalblue;
+}
+
+.group-1 > p {
+  color: tomato;
+}

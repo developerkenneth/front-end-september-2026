@@ -1,0 +1,11 @@
+button {
+  background-color: red;
+  padding: 45px;
+  transition: all 5s ease-in-out;
+  transition-delay: 2s;
+}
+
+button:hover {
+  transform: translateX(500px);
+  color: white;
+}
